@@ -1,0 +1,81 @@
+aside{
+    padding: 0 28px;
+	display: inline-block;
+	width: 25%;
+	float: right;
+}
+.search-box{
+	display: inline-block;
+	position: relative;
+}
+.fa{
+	position: absolute;
+	right: 10px;
+	top: 16px;
+	color: #B2B1B9;
+}
+input{
+	width: 280px;
+	padding: 17px 10px;
+	background-color: #EEEEEE;
+	border: none;
+}
+input::placeholder{
+	font-size: 18px;
+}
+input:focus{
+	outline: none;
+}
+aside ul li{
+list-style-type:none;
+margin: 11px 0;
+font-size: 20px;
+color: #5D534A;
+}
+.archieves1>ul>li>ul>li,.archieves1 ul li:first-child{
+	display: inline-block;
+	margin: 0 10px;
+	background-color: red;
+	padding: 13px 25px;
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+}
+.archieves1>ul>li>ul{
+	margin-left: -40px;
+	
+}
+.archieves1>ul{
+	margin-left: -54px;
+	
+
+}
+.archieves>ul,.categories ul{
+	margin-left: -40px;
+	
+}
+aside h1{
+	margin: 120px 0px;
+}
+.side-content{
+	width: 70%;
+}
+.img1 h1+img{
+	border-radius: 50%;
+	vertical-align: middle;
+	margin: 0 20px;
+}
+.img1 h1{
+	margin: 60px 20px 15px 20px;
+}
+.btn{
+	background-color: red;
+	color: white;
+	padding: 15px 30px;
+	display: inline-block;
+	margin: 20px;
+	margin-bottom: 100px;
+}
+.img2{
+
+}

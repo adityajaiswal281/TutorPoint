@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-image: url("img.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 625px;
+}
+.navbar-nav{
+	width: 600px;
+	display: flex;
+	margin: 0px 120px;
+	justify-content:space-between;
+}
+.navbar-nav .nav-link	{
+color: white; 
+}
+
+.btn{
+    clear: both;
+	padding: 15px 60px;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	border-radius: 0px;
+}
+.navbar .navbar-brand{
+font-size: 30px;
+margin-left: 100px;
+}
+.navbar-brand .fa{
+	margin-right: 8px;
+}
+.jumbotron{
+	height: 260px;
+
+	}
+.jumbotron .container{
+	text-align: center;
+}
+.container h1{
+	margin: 100px 0;
+}
+input{
+	width: 300px;
+	padding: 14px;
+}
+.form .btn{
+	margin-top: -5px;
+}
+form{
+display: inline-block;
+margin-left: 290px;
+
+}
+input:focus{
+	outline: none;
+}
+.panel{
+	text-align: center;
+	color: #716F81;
+}
+.course{
+	background-color: #EEEEEE;
+		margin: 30px;
+
+}
+.panel p{
+	font-size: 20px;
+	letter-spacing: 1px;
+	word-spacing: 2px ;
+	font-weight: bold;
+	font-family: serif;
+}
+
+.card-body h4,.card-body p{
+	text-align: left;
+
+}
+.card-body p{
+	color: red;
+}
+.card{
+	background-color: #EEEEEE;
+	border: none;
+}
+footer{
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+flex-wrap:wrap ;
+margin: 25px;
+
+}
+.t-point,.aboutus,.extralinks,.contactus{
+	display: inline-block;
+    
+}
+
+a{
+	text-decoration: none;
+}
+ul li{
+	margin-left: -30px;
+	list-style-type: none;
+}
